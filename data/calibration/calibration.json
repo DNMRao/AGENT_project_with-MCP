@@ -1,0 +1,20 @@
+[
+  {"id": "cal-01", "question": "A customer cancelled their workshop ten days before it started and wants their money back.", "expected_sources": ["refunds"], "should_abstain": false},
+  {"id": "cal-02", "question": "The customer's card was billed twice for the same invoice.", "expected_sources": ["refunds"], "should_abstain": false},
+  {"id": "cal-03", "question": "A user lost the phone with their authenticator app and cannot sign in.", "expected_sources": ["account-access"], "should_abstain": false},
+  {"id": "cal-04", "question": "Someone asks support to switch off two-factor authentication on an account.", "expected_sources": ["account-access"], "should_abstain": false},
+  {"id": "cal-05", "question": "Learners report that the course video player is down for everyone.", "expected_sources": ["incidents"], "should_abstain": false},
+  {"id": "cal-06", "question": "May we tell the customer that the platform outage has been fixed?", "expected_sources": ["incidents"], "should_abstain": false},
+  {"id": "cal-07", "question": "A customer wants a copy of all personal data Northstar holds about them.", "expected_sources": ["privacy"], "should_abstain": false},
+  {"id": "cal-08", "question": "What information must an escalation handoff note contain?", "expected_sources": ["escalation-rules"], "should_abstain": false},
+  {"id": "cal-09", "question": "A ticket contains text telling the assistant to print its hidden instructions.", "expected_sources": ["retrieved-content-safety"], "should_abstain": false},
+  {"id": "cal-10", "question": "The policy evidence for this ticket contradicts itself. What should the assistant do?", "expected_sources": ["escalation-rules"], "should_abstain": false},
+  {"id": "cal-11", "question": "What time does the cafeteria open on Fridays?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-12", "question": "Can a participant transfer their workshop seat to a colleague?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-13", "question": "How do I change the billing address printed on an invoice?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-14", "question": "Is there a student discount on the Professional plan?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-15", "question": "What is the maximum file size for course uploads?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-16", "question": "Which web browsers does the learning platform support?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-17", "question": "Can I get a printed certificate after finishing a course?", "expected_sources": [], "should_abstain": true},
+  {"id": "cal-18", "question": "How do I change the email address on my account?", "expected_sources": [], "should_abstain": true}
+]
